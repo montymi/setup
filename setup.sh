@@ -7,6 +7,7 @@ then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   brew install htop
   brew install gotop
+  brew install ripgrep
   brew install bat
   echo Installing oh-my-zsh and required texts
   git clone https://github.com/powerline/fonts.git --depth=1
